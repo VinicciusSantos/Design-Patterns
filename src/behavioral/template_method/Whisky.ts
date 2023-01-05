@@ -6,6 +6,6 @@ export default class Whisky extends TaxItem {
   }
 
   getTax(): number {
-    return this.price * 0.2;
+    return 20
   }
 }
